@@ -1,0 +1,32 @@
+{
+  "name": "mean-multer-ngf",
+  "version": "1.0.0",
+  "description": "A MEAN stack example of how to upload a file from a form in Angular JS using ngFileupload, and saving the file to a folder using Multer in Express/Node.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NukaPunk/mean-multer-ngf.git"
+  },
+  "author": "Joseph Szczesniak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NukaPunk/mean-multer-ngf/issues"
+  },
+  "homepage": "https://github.com/NukaPunk/mean-multer-ngf#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-messages": "^1.6.9",
+    "body-parser": "^1.18.2",
+    "cloudinary": "^1.10.0",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "mongoose": "^4.13.11",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "ng-file-upload": "^10.1.14"
+  }
+}
